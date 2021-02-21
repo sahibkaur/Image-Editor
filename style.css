@@ -1,0 +1,23 @@
+:root {
+    --base: #ffa801;
+    --spacing: 10px;
+    --blur: 10px;
+}
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e272e;
+    color: white;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin-top:20px;
+}
+.blue{
+    color: var(--base);
+}
